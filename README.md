@@ -1,13 +1,16 @@
 <div align="center">
-  <h1><img src="https://project-management-gs.vercel.app/favicon.ico" width="20" height="20" alt="project-management Favicon">
-   project-management</h1>
+  <h1>
+    <img src="https://project-management-gs.vercel.app/favicon.ico" width="25" height="25" alt="Project Management Logo">
+    Project Management System
+  </h1>
   <p>
-    An open-source project management platform built with ReactJS and Tailwind CSS.
+    A modern full-stack project management platform built with the MERN Stack (MongoDB, Express, React, Node.js).
   </p>
   <p>
-    <a href="https://github.com/GreatStackDev/project-management/blob/main/LICENSE.md"><img src="https://img.shields.io/github/license/GreatStackDev/project-management?style=for-the-badge" alt="License"></a>
-    <a href="https://github.com/GreatStackDev/project-management/pulls"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=for-the-badge" alt="PRs Welcome"></a>
-    <a href="https://github.com/GreatStackDev/project-management/issues"><img src="https://img.shields.io/github/issues/GreatStackDev/project-management?style=for-the-badge" alt="GitHub issues"></a>
+    <img src="https://img.shields.io/badge/MERN-Stack-green?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/React-Frontend-blue?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/Node.js-Backend-darkgreen?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/License-MIT-black?style=for-the-badge" />
   </p>
 </div>
 
@@ -16,60 +19,75 @@
 ## 📖 Table of Contents
 
 - [✨ Features](#-features)
-- [🛠️ Tech Stack](#-tech-stack)
+- [🛠 Tech Stack](#-tech-stack)
 - [🚀 Getting Started](#-getting-started)
+- [📂 Project Structure](#-project-structure)
+- [🔐 Environment Variables](#-environment-variables)
+- [🌍 Deployment](#-deployment)
 - [🤝 Contributing](#-contributing)
 - [📜 License](#-license)
 
 ---
 
-## 📝 Features <a name="-features"></a>
+## ✨ Features
 
-- **Multiple Workspaces:** Allow multiple workspaces to be created, each with its own set of projects, tasks, and members.
-- **Project Management:** Manage projects, tasks, and team members.
-- **Analytics:** View project analytics, including progress, completion rate, and team size.
-- **Task Management:** Assign tasks to team members, set due dates, and track task status.
-- **User Management:** Invite team members, manage user roles, and view user activity.
+### 🏢 Multiple Workspaces
+- Create and manage multiple workspaces  
+- Each workspace contains its own projects, tasks, and members  
 
-## 🛠️ Tech Stack <a name="-tech-stack"></a>
+### 📁 Project Management
+- Create, update, and delete projects  
+- Assign team members to projects  
+- Track project progress  
 
-- **Framework:** ReactJS
-- **Styling:** Tailwind CSS
-- **UI Components:** Lucide React for icons
-- **State Management:** Redux Toolkit
+### ✅ Task Management
+- Create tasks within projects  
+- Assign tasks to team members  
+- Set due dates  
+- Update task status (To Do / In Progress / Done)  
+- Filter tasks by status  
 
-## 🚀 Getting Started <a name="-getting-started"></a>
+### 📊 Analytics & Dashboard
+- View overall project progress  
+- Track completion rate  
+- Monitor team size and activity  
 
-First, install the dependencies. We recommend using `npm` for this project.
-
-```bash
-npm install
-```
-
-Then, run the development server:
-
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
-
-You can start editing the page by modifying `src/App.jsx`. The page auto-updates as you edit the file.
+### 👥 User Management
+- User registration & login  
+- Secure authentication using JWT  
+- Role-based access control (Admin / Member)  
+- Manage team members  
 
 ---
 
-## 🤝 Contributing <a name="-contributing"></a>
+## 🛠 Tech Stack
 
-We welcome contributions! Please see our [CONTRIBUTING.md](./CONTRIBUTING.md) for more details on how to get started.
+### Frontend
+- ReactJS  
+- React Router  
+- Tailwind CSS  
+- Axios  
+- Redux Toolkit  
+
+### Backend
+- Node.js  
+- Express.js  
+
+### Database
+- MongoDB  
+- Mongoose  
+
+### Security
+- JWT Authentication  
+- bcrypt password hashing  
+- Protected API routes  
 
 ---
 
-## 📜 License <a name="-license"></a>
+## 🚀 Getting Started
 
-This project is licensed under the MIT License. See the [LICENSE.md](./LICENSE.md) file for details.
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/your-username/project-management.git
+cd project-management
