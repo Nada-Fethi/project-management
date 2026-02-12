@@ -15,7 +15,7 @@
 </div>
 
 ---
-![Uploading image.png…]()
+    <img src="file:///C:/Users/pc/Downloads/Capture%20d%E2%80%99%C3%A9cran%202026-02-12%20113746.png" />
 
 
 ## 📖 Table of Contents
